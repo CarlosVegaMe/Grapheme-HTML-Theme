@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="../../favicon.ico">
+<title>Documentation</title>
+
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="assets/css/bootstrap-theme.css" rel="stylesheet">
+
+<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style type="text/css"></style>
+</head>
+
+<body>
+<div class="container">
+  <div class="header">
+    <nav>
+      <ul class="nav nav-pills pull-right">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Design</a></li>
+        <li role="presentation"><a href="#">Edit</a></li>
+        <li role="presentation"><a href="#">Colors</a></li>
+        <li role="presentation"><a href="#">License</a></li>
+      </ul>
+    </nav>
+    <h3 class="text-muted">Grapheme Theme</h3>
+  </div>
+  <div class="jumbotron">
+    <h1>Graphemic-Color Synaesthesia</h1>
+    <p class="lead">The Grapheme Theme was inspired from Marc-Jacques Mächler article 
+      titled: Synaesthesia and Learning A Differentiated View of Synaesthetic Perceptional Awareness.</p>
+    <p><a class="btn btn-lg btn-success" href="http://synaesthesia.com/media/uploads/Synaesthesia_Learning.pdf" role="button">Read Article </a></p>
+  </div>
+  <!-- Design -->
+  <div class="col-lg-12">
+    <h2>Design</h2>
+    <p>Through out each page, everything within the .c div class will be automatically styled with the <a href="http://bartaz.github.io/sandbox.js/jquery.highlight.html">jquery highlight plugin.</a> The highlight plugin searches text of given elements, in this case
+    <pre><code>&lt;c&gt; this code is searched&lt;/c&gt;</code></pre>
+    <p>The Jquery fuction applies class to each letter and each letter style. Onload, the output looks like this: </p>
+    <pre><code>&lt;c&gt; &lt;span class="blue"&gt;t&lt;/span&gt; &lt;span class="green"&gt; &lt;/span&gt; &lt;span class="pink"&gt;i&lt;/span&gt; &lt;span class="purple&gt; s&lt;/span&gt; &lt;/c&gt;</code></p></pre>
+
+    <h4>Structure</h4>
+    <p>The image below is shows the html format used without file links. Include the file links to ensure functoinility. </p>
+     <img class="img-responsive" src="assets/img/pagecode.png"> 
+    <p>The style sheet corresponds with the class and style to the elements.</p>
+    <pre>
+    <code> 
+.blue	{ background-color: #0000FF;}<br>
+.green	{ background-color: #008000;}<br>
+.purple	{ background-color: #800080;}<br>
+.yellow	{ background-color: #FFFF00;}<br>
+.pink	{ background-color: #FF00FF;}
+	</code>
+    </pre>
+    <h4>Page Layout</4>
+    Here is an example of the page layout.
+     
+  </div>
+  <!-- ./Design --> 
+  <!-- Edit -->
+  <div class="col-lg-12">
+    <h2>Edit</h2>
+    <p>Editing the colors or adding fucntions (symbols, different alphabet) can be done with editing the core files.</p>
+    <h4>Editing: Style Sheet</h4>
+    <p>The class of the stylesheet file is titled <code>fontcolor-theme.css</code> and it can be found here: </p>
+    <p class="bg-info">Grapheme Theme/files/css/fontcolor-theme.css</p>
+    <p>With this stylesheet you may modify the color of the individual letters and numbers by editing the font color theme.</p>
+    <p>Open the file with your favriote <a href="http://lifehacker.com/5706475/five-best-text-editors">text editor.</a> As example, if I want to change every letter <code>a</code> then you will want to change the Hex color of the style class.</p>
+    <img class="img-responsive" src="assets/img/csscode.png">
+    <h4>Editing: Functions</h4>
+    <p>The fucntions of the jquery plugin file is titled <code>fontcolor.js</code> and it can be found here: </p>
+    <p class="bg-info">Grapheme Theme/files/js/fontcolor.js</p>
+    <p>With the <code>fontcolor.js</code> you may add characters, change the characters. Just remember, if you add any new characters, remember to add them in the style sheet. The image below is an example of the jquery file. </p>
+    <img class="img-responsive" src="assets/img/jscode.png"> </div>
+  
+  <!-- ./Edit --> 
+  
+  <!-- License -->
+  <div class="col-lg-12">
+    <h2>License</h2>
+    <p>The MIT License (MIT)</p>
+    <p> Copyright (c) 2014 Carlos Vega</p>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.<p>
+<img class="img-responsive" src="assets/img/osi.png"> 
+  </div>
+  <!-- ./footer -->
+  <footer class="footer">
+    <p>© Company 2014</p>
+  </footer>
+</div>
+
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug --> 
+<script src="assets/js/npm.js"></script>
+</body>
+</html>
