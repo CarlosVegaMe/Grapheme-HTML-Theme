@@ -1,4 +1,4 @@
-# [Demo](https://htmlpreview.github.io/?https://github.com/CarlosVegaMe/Grapheme-HTML-Theme/blob/master/index.html)
+# [Grapheme HTML Theme](https://htmlpreview.github.io/?https://github.com/CarlosVegaMe/Grapheme-HTML-Theme/blob/master/index.html)
 
 ## Links
 
