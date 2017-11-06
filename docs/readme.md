@@ -1,5 +1,4 @@
-# graphemetheme
-![](img1.png)
+# [Demo](https://htmlpreview.github.io/?https://github.com/CarlosVegaMe/Grapheme-HTML-Theme/blob/master/index.html)
 
 ## Links
 
@@ -14,6 +13,7 @@
      VERSION: BETA 1.0.1
 
 # Description:
+![](img1.png)
 
 The Grapheme Theme is a Bootstrap based theme for freelancers. This theme was built using jQuery Highlight Plugin and Bootstrap version 3.1.1. This theme is based off Graphemic-Color Synaesthesia and Marc-Jacques Mächler's articled titled Synaesthesia and Learning A Differentiated View of Synaesthetic Perceptional Awareness.
 
