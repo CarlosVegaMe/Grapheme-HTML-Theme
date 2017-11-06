@@ -1,5 +1,5 @@
 /*!
-Colors for files here! 
+Colors for files here!
 */
 
 /*!  characters: 'abcdefhijklmnopqrstuvwzyz' */
@@ -31,18 +31,13 @@ Colors for files here!
 .z {color: #dbb039;}
 
 /*! characters: 0123456789 */
-
-.a {color: #FFFF88;}
-.0 {color: #FFFF88;}
-.1 {color: #FFFF88;}
-.2 {color: #FFFF88;}
-.3 {color: #FFFF88;}
-.4 {color: #FFFF88;}
-.5 {color: #FFFF88;}
-.6 {color: #FFFF88;}
-.7 {color: #FFFF88;}
-.8 {color: #FFFF88;}
-.9 {color: #FFFF88;}
-
-/*! characters: '0123456789' */
-
+.one {color: #271552;}
+.two {color: #eeb10e;}
+.three {color: #0ea540;}
+.four {color: #a2d3d4;}
+.five {color: #421698;}
+.six {color: #982527;}
+.seven {color: #e7dc24;}
+.eight {color: #219d3b;}
+.nine {color: #1d2792;}
+.zero {color: #de2a13;}
